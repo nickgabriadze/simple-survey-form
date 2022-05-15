@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<style>
+
+body{
+    background-image: url("https://i.pinimg.com/736x/15/47/f9/1547f9612e980e8057e9ff1c915636e9.jpg");
+    background-position: center ;
+   
+}
+
+
+#title{ 
+    color: rgb(29, 20, 20);
+    background-color: rgb(158, 154, 157);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 600px;
+    text-align: center;
+    display: table;
+    margin: auto;
+}
+
+#description{
+    color: rgb(29, 20, 20);
+    background-color: rgb(158, 154, 157);
+    width: 600px;
+    text-align: center;
+    display: table;
+    margin: auto;
+}
+
+#survey-form{
+    background-color: rgb(61, 53, 59);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 600px;
+    text-align: center;
+    display: table;
+    margin: auto;
+}
+
+#naming{
+    text-align: left;
+    color: rgb(212, 206, 206);
+    margin-bottom: -3px;
+    font-weight: 300;
+    font-family:Arial, Helvetica, sans-serif, Times, serif;
+}
+
+#name{
+    display: block;
+    align-items: left;
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#emailing{
+    text-align: left;
+    color: rgb(212, 206, 206);
+    margin-bottom: -3px;
+    font-weight: 300;
+    font-family:Arial, Helvetica, sans-serif, Times, serif;
+}
+
+#email{
+    display: block;
+    align-items: left;
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#numbering{
+    text-align: left;
+    color: rgb(212, 206, 206);
+    margin-bottom: -3px;
+    font-weight: 300;
+    font-family:Arial, Helvetica, sans-serif, Times, serif;
+}
+
+#number-input{
+    display: block;
+    align-items: left;
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#like{ 
+    text-align: left;
+    color: rgb(212, 206, 206);
+    margin-bottom: -3px;
+    font-weight: 300;
+    font-family:Arial, Helvetica, sans-serif, Times, serif;
+}
+
+#dropdown{
+    display: block;
+    align-items: left;
+    border-radius: 20px;
+    width: 300px;
+    font-size: 20px;
+    height: 30px;
+}
+
+#question-with-buttons{
+    color: rgb(212, 206, 206);
+    margin-bottom: -3px;
+    font-weight: 300;
+    font-family:Arial, Helvetica, sans-serif, Times, serif;
+}
+
+
+#buttons{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 20px;
+    text-align: left;
+}
+
+#question-about-salary{
+    text-align: left;
+    color: rgb(212, 206, 206);
+    margin-bottom: -3px;
+    font-weight: 300;
+    font-family:Arial, Helvetica, sans-serif, Times, serif;
+    padding-top: 10px;
+}
+
+#cute-checkboxes{
+   
+    text-align: left;
+    padding-top: px;
+    color: blanchedalmond;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+label{
+display: block;
+}
+
+#suggestion{
+    text-align: left;
+    color: rgb(212, 206, 206);
+    margin-bottom: -3px;
+    font-weight: 300;
+    font-family:Arial, Helvetica, sans-serif, Times, serif;
+}
+
+#message-box{
+    margin-top: 20px;
+    display: block;
+    align-items: left;
+    width: 300px;
+    height: 200px;
+    
+}
+
+#textbox{
+    display: block;
+    align-items: left;
+    width: 400px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+#submit{
+    padding-bottom: 7px;
+    width: 200px;
+    color: aqua;
+    height: 30px;
+    font-family:monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: blue;
+    margin-top: 50px;
+    margin-bottom: 20px
+}
+
+
+</style>
+
+
+<link rel="stylesheet" href="style.css">
+
+</main>
+<body>
+
+
+<h1 id="title">Coolest Company Survey Form</h1>
+<p id="description"><em>Thanks for helping us to improve our services. Your opinions matters</em></p>
+
+
+<form id="survey-form">
+    <div id="name-label">
+    <div id="name-input">
+        <h1 id="naming">Name</h1>
+        <label for="name-label">
+        <input id="name" type="name" name="name-label" placeholder="Enter your name" required>
+    </label>
+    </div>
+</div>
+
+<div id="email-label">
+    <div id="email-input">
+        <h1 id="emailing">Email</h1>
+        <label for="email-label">
+        <input id="email" id="email-label" type="email" name="email-label" placeholder="Enter your Email" required>
+    </label>    
+    </div>
+</div>
+
+<div id="number-label">
+    <div id="number">
+        <h1 id="numbering">Age</h1>
+        <label for="number-label">
+        <input type="number" name="number-label" id="number-input" min=0 max=99 placeholder="Enter your number" required>
+    </label>
+    </div>
+</div>
+    <div id="dropdowndiv">
+        <h1 id="like">Are you satisfied with our company?</h1>
+        <select name="likeitornot" id="dropdown">
+            <option value="none" selected disabled hidden>Please select one of them</option>  
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+            <option value="Kinda">Kinda</option>
+            <option value="I don't care">I don't really care</option>
+        </select>
+    </div>
+
+    <div id="buttons">
+        <h1 id="question-with-buttons">What would you change in our company?</h1>
+        <!-- <button id="first-button" type="radio" value="employers"></button> -->
+       <div id="radios">
+        <label for="employers"></label>
+        <input id="first-botton-clickable" value="employers" name="button" type="radio"> Employers
+        <label for="ceos"></label>
+        <input id="second-button-clickable" value="ceos" name="button" type="radio"> CEOs
+        <label for="entire-staff"></label>
+        <input id="third-button-clickable" value="entire-staff" name="button" type="radio"> Staff
+        <label for="nothing"></label>
+        <input id="fourth-button-clickable" value="nothing" name="button" type="radio"> Nothing
+        </div>  
+    </div>
+
+
+    <div id="cute-checkboxes">
+        <h1 id="question-about-salary">What is the thing that you value the most?</h1>
+        <div id="radio-buttons">
+        <input id="responsibility" type="checkbox" value="responsibility"> Responsibility
+        <label for="responsibiluty"></label>
+        <input id="time" type="checkbox" value="time"> Time
+        <label for="time"></label>
+        <input id="consistency" type="checkbox" value="consistency"> Consistency
+        <label for="consistency"></label>
+        <input id="salary" type="checkbox" value="salary"> Salary
+        <label for="salary"></label>
+        </div>
+    </div>
+
+    <div id="box-for-additional-comments">
+        <h1 id="suggestion">Leave a feedback!</h1>
+        <textarea id="textbox" style="vertical-align:text-top" placeholder="Enter your message here"></textarea>
+
+    </div>
+
+
+    <div id="submit-button">
+
+        <button id="submit">Submit</button>
+    </div>
+
+</form>
+
+
+
+
+
+</body>
+</main>

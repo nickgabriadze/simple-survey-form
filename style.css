@@ -1,0 +1,177 @@
+body{
+    background-image: url("https://i.pinimg.com/736x/15/47/f9/1547f9612e980e8057e9ff1c915636e9.jpg");
+    background-position: center ;
+}
+
+
+#title{ 
+    color: rgb(29, 20, 20);
+    background-color: rgb(158, 154, 157);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 600px;
+    text-align: center;
+    display: table;
+    margin: auto;
+}
+
+#description{
+    color: rgb(29, 20, 20);
+    background-color: rgb(158, 154, 157);
+    width: 600px;
+    text-align: center;
+    display: table;
+    margin: auto;
+}
+
+#survey-form{
+    background-color: rgb(61, 53, 59);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 600px;
+    text-align: center;
+    display: table;
+    margin: auto;
+}
+
+#naming{
+    text-align: left;
+    color: rgb(212, 206, 206);
+    margin-bottom: -3px;
+    font-weight: 300;
+    font-family:Arial, Helvetica, sans-serif, Times, serif;
+}
+
+#name{
+    display: block;
+    align-items: left;
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#emailing{
+    text-align: left;
+    color: rgb(212, 206, 206);
+    margin-bottom: -3px;
+    font-weight: 300;
+    font-family:Arial, Helvetica, sans-serif, Times, serif;
+}
+
+#email{
+    display: block;
+    align-items: left;
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#numbering{
+    text-align: left;
+    color: rgb(212, 206, 206);
+    margin-bottom: -3px;
+    font-weight: 300;
+    font-family:Arial, Helvetica, sans-serif, Times, serif;
+}
+
+#number-input{
+    display: block;
+    align-items: left;
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#like{ 
+    text-align: left;
+    color: rgb(212, 206, 206);
+    margin-bottom: -3px;
+    font-weight: 300;
+    font-family:Arial, Helvetica, sans-serif, Times, serif;
+}
+
+#dropdown{
+    display: block;
+    align-items: left;
+    border-radius: 20px;
+    width: 300px;
+    font-size: 20px;
+    height: 30px;
+}
+
+#question-with-buttons{
+    color: rgb(212, 206, 206);
+    margin-bottom: -3px;
+    font-weight: 300;
+    font-family:Arial, Helvetica, sans-serif, Times, serif;
+}
+
+
+#buttons{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 20px;
+    text-align: left;
+}
+
+#question-about-salary{
+    text-align: left;
+    color: rgb(212, 206, 206);
+    margin-bottom: -3px;
+    font-weight: 300;
+    font-family:Arial, Helvetica, sans-serif, Times, serif;
+    padding-top: 10px;
+}
+
+#cute-checkboxes{
+   
+    text-align: left;
+    padding-top: px;
+    color: blanchedalmond;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+label{
+display: block;
+}
+
+#suggestion{
+    text-align: left;
+    color: rgb(212, 206, 206);
+    margin-bottom: -3px;
+    font-weight: 300;
+    font-family:Arial, Helvetica, sans-serif, Times, serif;
+}
+
+#message-box{
+    margin-top: 20px;
+    display: block;
+    align-items: left;
+    width: 300px;
+    height: 200px;
+    
+}
+
+#textbox{
+    display: block;
+    align-items: left;
+    width: 400px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+#submit{
+    padding-bottom: 7px;
+    width: 200px;
+    color: aqua;
+    height: 30px;
+    font-family:monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: blue;
+    margin-top: 50px;
+    margin-bottom: 20px
+}
+
